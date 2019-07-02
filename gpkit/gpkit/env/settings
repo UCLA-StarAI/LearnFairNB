@@ -1,0 +1,2 @@
+installed_solvers : mosek_cli, cvxopt
+

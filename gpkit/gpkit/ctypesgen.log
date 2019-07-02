@@ -1,0 +1,20 @@
+Status: Preprocessing /tmp/tmp39mZq8.h
+Status: gcc -E -U __GNUC__ -dD "-Dinline=" "-D__inline__=" "-D__extension__=" "-D_Bool=uint8_t" "-D__const=const" "-D__asm__(x)=" "-D__asm(x)=" "-DCTYPESGEN=1" /tmp/tmp39mZq8.h
+Traceback (most recent call last):
+  File "modified_ctypesgen.py", line 191, in <module>
+    descriptions=ctypesgencore.parser.parse(options.headers,options)
+  File "/usr/local/opt/miniconda3/envs/gpkit-dev-py27/lib/python2.7/site-packages/ctypesgencore/parser/__init__.py", line 21, in parse
+    parser.parse()
+  File "/usr/local/opt/miniconda3/envs/gpkit-dev-py27/lib/python2.7/site-packages/ctypesgencore/parser/datacollectingparser.py", line 69, in parse
+    ctypesparser.CtypesParser.parse(self, fname, None)
+  File "/usr/local/opt/miniconda3/envs/gpkit-dev-py27/lib/python2.7/site-packages/ctypesgencore/parser/cparser.py", line 113, in parse
+    self.preprocessor_parser.parse(filename)
+  File "/usr/local/opt/miniconda3/envs/gpkit-dev-py27/lib/python2.7/site-packages/ctypesgencore/parser/preprocessor.py", line 200, in parse
+    token = self.lexer.token()
+  File "/usr/local/opt/miniconda3/envs/gpkit-dev-py27/lib/python2.7/site-packages/ctypesgencore/parser/preprocessor.py", line 51, in token
+    result = lex.Lexer.token(self)
+  File "/usr/local/opt/miniconda3/envs/gpkit-dev-py27/lib/python2.7/site-packages/ctypesgencore/parser/lex.py", line 297, in token
+    newtok = func(tok)
+  File "/usr/local/opt/miniconda3/envs/gpkit-dev-py27/lib/python2.7/site-packages/ctypesgencore/parser/pplexer.py", line 218, in t_ANY_int
+    g1 = str(long(g1,8))
+ValueError: invalid literal for long() with base 8: '08420217248550443400745280086994171'

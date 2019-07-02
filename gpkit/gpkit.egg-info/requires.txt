@@ -1,0 +1,6 @@
+numpy>=1.12.1
+pint>=0.7
+scipy
+ad
+ctypesgen
+cvxopt

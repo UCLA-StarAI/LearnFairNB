@@ -1,0 +1,10 @@
+7 0.0
+ScoreText 1
+Ethnic_Code_Text 1
+MaritalStatus 1
+Sex 1
+Age 1
+CustodyStatus 0
+LegalStatus 0
+RecSupervisionLevel 0
+

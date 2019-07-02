@@ -1,0 +1,15 @@
+14 0.0
+target 1
+workclass 0
+fnlwgt 0
+education 0
+education-num 0
+hours-per-week 0
+marital-status 1
+occupation 0
+relationship 0
+race 1
+sex 1
+native-country 1
+capital-gain 0
+capital-loss 0
